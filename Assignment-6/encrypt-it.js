@@ -15,8 +15,12 @@
    * TODO: Write a function comment using JSDoc.
    */
   function init() {
-    // Note: In this function, we usually want to set up our event handlers
-    // for UI elements on the page.
+    
+  }
+
+  function handleCLick(){
+    console.log("Button Clicked!");
+
   }
 
   // Add any other functions in this area (you should not implement your
