@@ -1,1 +1,3 @@
-alert("hello world");
+function alertOnCLick() {
+    alert("Hello World");
+}
