@@ -10,8 +10,11 @@
    * Sets up event listeners once the page loads.
    */
   function init() {
-    let button = document.getElementById("encrypt-it");
-    button.addEventListener("click", handleClick);
+    let encryptButton = document.getElementById("encrypt-it");
+    encryptButton.addEventListener("click", handleClick);
+
+    let resetButton = document.getElementById("reset");
+    resetButton.addEventListener("click", handleReset);
   }
 
   /**
@@ -19,6 +22,11 @@
    */
   function handleClick() {
     console.log("Button clicked!");
+  }
+
+  function handleReset() {
+    let textArea = document.getElementById("input-text");
+    textArea.value = "";
   }
 
 })();
